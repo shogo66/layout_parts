@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.btn1 {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
+.btn2{
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn3{
+  display: inline-block;
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.blue-btn{
+  background-color: #00bcd4;
+  color: #FFF;
+}
+
+.pink-btn{
+  background-color: #ff4081;
+  color: #FFF;
+}
+
+.gray-btn{
+  background-color: #e5e5e5;
+  color: #FFF;
+}
+
+.white-btn{
+  background-color: #FFF;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+}
 /* 回答はここに書いてね */

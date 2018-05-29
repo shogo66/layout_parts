@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content {
+  width: 100%;
+  padding: 20px;
+  background-color: #ECF1F2;
+  display: table;
+  box-sizing: border-box;
+}
 
+.cell {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.block1 {
+  background-color: #FDC8B8;
+  width: 100px;
+}
+
+.block2 {
+  background-color: #E0ABD9;
+}
+
+.block3 {
+  background-color: #B6D8ED;
+  width: 100px;
+}
+
+.block4 {
+  background-color: #E5D32E;
+}
+
+.block5 {
+  background-color: #E4E67C;
+}
+
+.block6 {
+  background-color: #8FDCAD;
+  width: 500px;
+}
 /* 回答はここに書いてね */
