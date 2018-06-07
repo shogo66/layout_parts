@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrapper2{
+.contents {
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
@@ -15,7 +15,7 @@
   position: absolute;
   text-align: center;
   font-weight: bold;
-
+  font-size: 30px;
 }
 
 .box1 {
@@ -93,6 +93,8 @@
   width: 100px;
   height: 100px;
 }
-
-}
 /* 回答はここに書いてね */
+/*修正点
+- Wrapper2のクラス名を変える/
+- Box8にオールボックスを使う
+*/

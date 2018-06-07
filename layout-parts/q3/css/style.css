@@ -11,45 +11,45 @@
   table-layout: fixed;
 }
 
-.table_box {
-  padding: 10px;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.content > thead th:not(:first-child) {
   border-left: 1px solid #dedede;
-  vertical-align: middle;
 }
 
-.table_box:first-child {
-  border-left: 0;
-  border-top: 0;
-}
-
-.tr_box {
+.content > tbody > tr {
   border-top: 1px solid #dedede;
 }
 
-.table1 {
-  background-color: #2244aa;
+.content > tbody > tr:nth-child(even) {
+  background-color: #ECF1F2;
+}
+
+.content > tbody > tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+.content th {
+  padding: 10px;
+  background-color: #24a;
   color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  vertical-align: middle;
 }
 
-.table2 {
-  background-color: #fff;
-}
-
-.table2:first-child {
-  background-color: #2244aa;
-  color: #fff;
-}
-
-.table3 {
-  background-color: #ecf1f2;
-}
-
-.table3:first-child {
-  color: #fff;
-  background-color: #2244aa;
-}
-
-.table4 {
-  border-top: dashed #000 2px;
+.content td {
+  padding: 10px;
+  border-left: 1px solid #dedede;
+  line-height: 22px;
+  text-align: center;
+  vertical-align: middle;
 }
 /* 回答はここに書いてね */
+/*修正点
+- trとthタグについているクラスを消す/
+- Nth-childとlast-childを使う/
+*/

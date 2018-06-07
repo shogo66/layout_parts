@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.txt-box {
+.contents__textalign {
   text-align: center;
 }
 
-.txt-box1{
+.ccontents__textalign__inner {
   display: inline-block;
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.txt-box2{
+.contents__margin {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
@@ -22,39 +22,37 @@
 
 /*クイズ２*/
 
-.td-block{
+.contents__vertical__table {
   display: table;
 }
 
-.block{
+.contents__vertical__table__inner {
   display: table-cell;
   background-color: #ecf1f2;
   text-align: center;
   vertical-align: middle;
 }
 
-.txt-block{
+.contents__vertical__table__inner__txt {
   padding: 10px;
   background-color: #FFF;
   display: inline-block;
 }
 
-.fl-block{
+.contents__vertical__flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.fl-txt{
+.contents__vertical__flex__txt {
   background-color: #FFF;
   padding: 10px;
 }
 
-.p-block{
-  position: relative;
-}
 
-.p-txt{
+
+.contents__position__box__stable {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -65,11 +63,11 @@
   height: 30px;
 }
 
-.tr-block{
+.contents__position__box {
   position: relative;
 }
 
-.tr-txt{
+.contents__position__box__flexible {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,3 +75,6 @@
   -webkit- transform: translateY(-50%) translate(-50%);
 }
 /* 回答はここに書いてね */
+/*修正点
+txtboxなどのクラス名をわかりやすいものに直す
+*/

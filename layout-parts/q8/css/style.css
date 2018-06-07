@@ -9,36 +9,39 @@
   box-sizing: border-box;
 }
 
-.cell {
+.contents__cell {
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
 
-.block1 {
+.orange__block {
   background-color: #FDC8B8;
   width: 100px;
 }
 
-.block2 {
+.purple__block {
   background-color: #E0ABD9;
 }
 
-.block3 {
+.blue__block {
   background-color: #B6D8ED;
   width: 100px;
 }
 
-.block4 {
+.brown__block {
   background-color: #E5D32E;
 }
 
-.block5 {
+.yellow__block {
   background-color: #E4E67C;
 }
 
-.block6 {
+.green__block {
   background-color: #8FDCAD;
   width: 500px;
 }
 /* 回答はここに書いてね */
+/*修正点
+クラス名の修正
+ */

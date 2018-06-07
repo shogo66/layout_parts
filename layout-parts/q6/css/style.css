@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.btn2{
+.btn2 {
   display: inline-block;
   border-radius: 5px;
   font-size: 20px;
@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 
-.btn3{
+.btn3 {
   display: inline-block;
   border-radius: 7px;
   font-size: 24px;
@@ -31,24 +31,27 @@
   cursor: pointer;
 }
 
-.blue-btn{
+.blue-btn {
   background-color: #00bcd4;
   color: #FFF;
 }
 
-.pink-btn{
+.pink-btn {
   background-color: #ff4081;
   color: #FFF;
 }
 
-.gray-btn{
+.gray-btn {
   background-color: #e5e5e5;
   color: #FFF;
 }
 
-.white-btn{
+.white-btn {
   background-color: #FFF;
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
 }
 /* 回答はここに書いてね */
+/*修正点
+いらないクラスは消す
+/*

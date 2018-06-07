@@ -1,51 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrapper2{
+.wrapper2 {
   padding: 20px;
   background-color: #ECF1F2;
 }
-
-.grid {
-  font-size: 0;
-  margin: 20px -10px 0px -10px
-}
-
-.grid:first-child{
-  margin: 0px -10px 0px -10px;
-}
-
-.all-grid{
-  display: inline-block;
-  padding: 0px 10px;
-  box-sizing: border-box;
-}
-
-.grid1 {
-  width: 100%;
-}
-
-.grid2 {
-  width: 50%;
-}
-
-.grid3 {
-  width: 33.3%;
-}
-
-.grid4 {
-  width: 25%;
-}
-
-.grid5 {
-  width: 20%;
-}
-
-.grid6 {
-  width: 16.6%;
-}
-
-.all-txt{
+.all-txt {
   background-color: #FFF;
   height: 50px;
   font-size: 16px;
@@ -53,35 +13,46 @@
   text-align: center;
 }
 
-.txt1 {
-  
+.all-grid {
+  display: inline-block;
+  padding: 0px 10px;
+  box-sizing: border-box;
 }
 
-.txt2 {
-  
+.grid {
+  font-size: 0;
+  margin: 20px -10px 0px -10px
 }
 
-.txt3 {
-  
+.grid:first-child {
+  margin: 0px -10px 0px -10px;
 }
 
-.txt4 {
-
+.grid__cell__width__100 {
+  width: 100%;
 }
 
-.txt5 {
-
+.grid__cell__width__50 {
+  width: 50%;
 }
 
-.txt6 {
-
+.grid__cell__width__33 {
+  width: 33.3%;
 }
 
-.txt7 {
-
+.grid__cell__width__25 {
+  width: 25%;
 }
 
-.txt8 {
+.grid__cell__width__20 {
+  width: 20%;
+}
 
+.grid__cell__width__16 {
+  width: 16.6%;
 }
 /* 回答はここに書いてね */
+/*修正点
+いらないクラスの削除/
+クラスの名前を修正/
+ */
