@@ -13,6 +13,7 @@
   display: table-cell;
   padding: 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .orange__block {

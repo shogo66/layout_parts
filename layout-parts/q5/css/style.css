@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.ccontents__textalign__inner {
+.contents__textalign__inner {
   display: inline-block;
   width: 90px;
   padding: 10px 0;
@@ -22,7 +22,7 @@
 
 /*クイズ２*/
 
-.contents__vertical__table {
+.contents__table {
   display: table;
 }
 
@@ -63,7 +63,7 @@
   height: 30px;
 }
 
-.contents__position__box {
+.contents__position {
   position: relative;
 }
 
